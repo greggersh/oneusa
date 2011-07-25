@@ -15,7 +15,7 @@ def is_mobile?(user_agent, mobile_agents, non_mobile_agents)
 end
 
 if ARGV.size < 1
-  puts "First argument should be a file"
+  puts "Usage: parse <filename>"
   exit 1
 end
 
