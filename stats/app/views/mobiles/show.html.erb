@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Clicked at:</b>
+  <%= @mobile.clicked_at %>
+</p>
+
+<p>
+  <b>Mobile count:</b>
+  <%= @mobile.mobile_count %>
+</p>
+
+<p>
+  <b>Total count:</b>
+  <%= @mobile.total_count %>
+</p>
+
+
+<%= link_to 'Edit', edit_mobile_path(@mobile) %> |
+<%= link_to 'Back', mobiles_path %>

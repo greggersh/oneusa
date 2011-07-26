@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  clicked_at: 2011-07-25 22:38:36
+  mobile_count: 1
+  total_count: 1
+
+two:
+  clicked_at: 2011-07-25 22:38:36
+  mobile_count: 1
+  total_count: 1

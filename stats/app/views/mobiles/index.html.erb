@@ -1,0 +1,27 @@
+<h1>Listing mobiles</h1>
+
+<table>
+  <tr>
+    <th>Clicked at</th>
+    <th>Mobile count</th>
+    <th>Total count</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mobiles.each do |mobile| %>
+  <tr>
+    <td><%= mobile.clicked_at %></td>
+    <td><%= mobile.mobile_count %></td>
+    <td><%= mobile.total_count %></td>
+    <td><%= link_to 'Show', mobile %></td>
+    <td><%= link_to 'Edit', edit_mobile_path(mobile) %></td>
+    <td><%= link_to 'Destroy', mobile, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Mobile', new_mobile_path %>
