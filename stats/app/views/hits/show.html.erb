@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Clicked at:</b>
+  <%= @hit.clicked_at %>
+</p>
+
+<p>
+  <b>Is mobile:</b>
+  <%= @hit.is_mobile %>
+</p>
+
+<p>
+  <b>Page:</b>
+  <%= @hit.page %>
+</p>
+
+<p>
+  <b>Agency:</b>
+  <%= @hit.agency %>
+</p>
+
+
+<%= link_to 'Edit', edit_hit_path(@hit) %> |
+<%= link_to 'Back', hits_path %>

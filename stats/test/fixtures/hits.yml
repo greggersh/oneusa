@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  clicked_at: 2011-07-27 16:39:15
+  is_mobile: false
+  page: MyString
+  agency: MyString
+
+two:
+  clicked_at: 2011-07-27 16:39:15
+  is_mobile: false
+  page: MyString
+  agency: MyString
